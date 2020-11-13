@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+.body{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.cuerpo{
+    width: 70%;
+    height: calc(100vh - 110px);
+    
+}
+.imgPrincipal{
+    padding: 0 1rem;
+}
+.image1{
+    width: 100%;
+}
+.imgCard1{
+    width: 100%;
+    
+}
+.card1,
+.card2,
+.card3{
+    padding: 1rem;
+    transition: all 0.5s ease 0s;
+}
+.imgCard1,
+.imgCard2,
+.imgCard3{
+    transition: all 0.5s ease 0s;
+}
+.imgCard1:hover{
+    width: 105%;
+    
+}
+.imgCard2:hover{
+    width: 105%;
+}
+.imgCard3:hover{
+    width: 105%;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    
+}

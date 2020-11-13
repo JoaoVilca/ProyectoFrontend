@@ -1,0 +1,1 @@
+export const BACKEND = "https://5fab630903a60500167e6a14.mockapi.io/"

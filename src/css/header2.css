@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+.nombre{
+    padding-top: 1rem;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    background-image: url("./../img/pintar.svg");
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.header2{
+    width: 100%;
+    height: 60px;
+    background-image: url("https://img.freepik.com/foto-gratis/tela-tejida-blanca_53876-89528.jpg?size=626&ext=jpg");
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconoCarrito{
+    background-image: url("./../img/cart.svg");
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.iconoCarrito:hover{
+    cursor: pointer;
+}
