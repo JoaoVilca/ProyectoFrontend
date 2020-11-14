@@ -1,0 +1,15 @@
+.seccion1,
+.seccion2,
+.seccion3{
+    display: flex;
+    width: 100rem;
+    height: 20rem;
+}
+.cardSeccion1{
+    margin: 2rem 15rem;
+}
+.descripcion1,
+.descripcion2,
+.descripcion3{
+    padding: 5rem;
+}

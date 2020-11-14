@@ -7,6 +7,7 @@ import Categorias from "./screens/productos/categorias/Categorias";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header2 from "./components/Header2";
 import Header from "./components/Header";
+import Tendencia from "./screens/productos/tendencia/Tendencia";
 
 const AdminRouter = () => {
   return (
@@ -14,13 +15,11 @@ const AdminRouter = () => {
       <Header2/>
       <Header/>
       <Switch>
-        <Route path={"/admin/productos"} component={AdminProductos}></Route>
-        <Route
-          path={"/admin/productos/categorias"}
-          component={Categorias}
-        ></Route>
-        <Route path={"/admin/home"} component={AdminDashboard}></Route>
-        <Route path={"/admin"} component={AdminDashboard} />
+        <Route path={"/tienda/productos"} component={AdminProductos}/>
+        <Route path={"/tienda/categorias"} component={Categorias}/>
+        <Route path={"/tienda/home"} component={AdminDashboard}/>
+        <Route path={"/tienda/tendencia"} component={Tendencia}/>
+        <Route path={"/tienda"} component={AdminDashboard}/>
       </Switch>
     </Router>
   );

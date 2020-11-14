@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a className="navbar-brand" href="!#">
+        <a className="navbar-brand pl-5" href="!#">
           Navbar
         </a>
         <button
@@ -22,9 +22,9 @@ const Header = () => {
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item">
               <NavLink
-                to={"/admin/home"}
+                to={"/tienda/home"}
                 exact
-                className="nav-link"
+                className="nav-link pl-5"
                 activeClassName="active"
               >
                 Inicio
@@ -32,7 +32,7 @@ const Header = () => {
             </li>
             <li className="nav-item dropdown">
               <NavLink
-                to={"/admin"}
+                to={"!#"}
                 activeClassName="active"
                 class="nav-link dropdown-toggle"
                 id="navbarDropdown"
@@ -46,7 +46,7 @@ const Header = () => {
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <NavLink
                   class="dropdown-item"
-                  to={"/admin/productos"}
+                  to={"/tienda/productos"}
                   className="nav-link"
                   activeClassName="active"
                 >
@@ -54,15 +54,15 @@ const Header = () => {
                 </NavLink>
                 <NavLink
                   class="dropdown-item"
-                  to={"/admin/productos/categorias"}
+                  to={"/tienda/categorias"}
                   className="nav-link"
-                  // activeClassName="active"
+                  activeClassName="active"
                 >
                   Categorias
                 </NavLink>
                 <NavLink
                   class="dropdown-item"
-                  to={"/admin/tendencia"}
+                  to={"/tienda/tendencia"}
                   className="nav-link"
                   // activeClassName="active"
                 >
@@ -70,7 +70,7 @@ const Header = () => {
                 </NavLink>
                 <NavLink
                   class="dropdown-item"
-                  to={"/admin/nuevos"}
+                  to={"/tienda/nuevos"}
                   className="nav-link"
                   // activeClassName="active"
                 >
