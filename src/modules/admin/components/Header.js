@@ -56,7 +56,7 @@ const Header = () => {
                   class="dropdown-item"
                   to={"/admin/productos/categorias"}
                   className="nav-link"
-                  activeClassName="active"
+                  // activeClassName="active"
                 >
                   Categorias
                 </NavLink>
@@ -64,7 +64,7 @@ const Header = () => {
                   class="dropdown-item"
                   to={"/admin/tendencia"}
                   className="nav-link"
-                  activeClassName="active"
+                  // activeClassName="active"
                 >
                   Tendencia
                 </NavLink>
@@ -72,30 +72,13 @@ const Header = () => {
                   class="dropdown-item"
                   to={"/admin/nuevos"}
                   className="nav-link"
-                  activeClassName="active"
+                  // activeClassName="active"
                 >
                   Recien llegado
                 </NavLink>
               </div>
             </li>
-            <li className="nav-item">
-              <NavLink
-                to={"/tipos"}
-                className="nav-link"
-                activeClassName="active"
-              >
-                Tipos
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                to={"/razas"}
-                className="nav-link"
-                activeClassName="active"
-              >
-                Razas
-              </NavLink>
-            </li>
+            
           </ul>
           <form className="form-inline my-2 my-lg-0">
             <input
