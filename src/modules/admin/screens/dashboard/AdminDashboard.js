@@ -9,8 +9,7 @@ import Header2 from "../../components/Header2";
 const AdminDashboard = () => {
   return (
     <>
-    <Header2></Header2>
-      <Header></Header>
+    
       <Body>
 
       </Body>
